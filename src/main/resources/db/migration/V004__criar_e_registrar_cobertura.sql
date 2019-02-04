@@ -1,6 +1,6 @@
 CREATE TABLE cobertura ( 
 	id INT NOT NULL AUTO_INCREMENT, id_plano INT NOT NULL, id_procedimento INT NOT NULL, PRIMARY KEY (id) 
-) ENGINE=MYISAM CHARSET=utf8; 
+) ENGINE=INNODB CHARSET=utf8; 
 
 INSERT INTO cobertura (id_plano, id_procedimento) VALUES (3,1);
 INSERT INTO cobertura (id_plano, id_procedimento) VALUES (3,2);
